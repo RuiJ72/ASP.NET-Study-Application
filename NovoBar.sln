@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{4E629FB0-B127-4AB7-ADC3-3306401E9522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovoNar.Web", "NovoNar.Web\NovoNar.Web.csproj", "{D0EF26B7-4200-4BCD-B44B-612B3BCE93B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovoBar.Api", "NovoBar.Api\NovoBar.Api.csproj", "{6E72BE23-DEDC-40E3-941C-98DA5E820EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovoBar.Entities", "NovoBar.Entities\NovoBar.Entities.csproj", "{1130689F-646C-4531-BABC-584A19D55597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovoBar.Infra", "NovoBar.Infra\NovoBar.Infra.csproj", "{E8A95188-D6D5-499B-967F-16631C6ACBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovoBar.Application", "NovoBar.Application\NovoBar.Application.csproj", "{3F44A501-A140-4E4C-BE9A-0ACEDAF593EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0EF26B7-4200-4BCD-B44B-612B3BCE93B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0EF26B7-4200-4BCD-B44B-612B3BCE93B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0EF26B7-4200-4BCD-B44B-612B3BCE93B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0EF26B7-4200-4BCD-B44B-612B3BCE93B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E72BE23-DEDC-40E3-941C-98DA5E820EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E72BE23-DEDC-40E3-941C-98DA5E820EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E72BE23-DEDC-40E3-941C-98DA5E820EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E72BE23-DEDC-40E3-941C-98DA5E820EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1130689F-646C-4531-BABC-584A19D55597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1130689F-646C-4531-BABC-584A19D55597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1130689F-646C-4531-BABC-584A19D55597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1130689F-646C-4531-BABC-584A19D55597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A95188-D6D5-499B-967F-16631C6ACBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A95188-D6D5-499B-967F-16631C6ACBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A95188-D6D5-499B-967F-16631C6ACBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A95188-D6D5-499B-967F-16631C6ACBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F44A501-A140-4E4C-BE9A-0ACEDAF593EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F44A501-A140-4E4C-BE9A-0ACEDAF593EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F44A501-A140-4E4C-BE9A-0ACEDAF593EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F44A501-A140-4E4C-BE9A-0ACEDAF593EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0EF26B7-4200-4BCD-B44B-612B3BCE93B6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6E72BE23-DEDC-40E3-941C-98DA5E820EAE} = {4E629FB0-B127-4AB7-ADC3-3306401E9522}
+		{1130689F-646C-4531-BABC-584A19D55597} = {4E629FB0-B127-4AB7-ADC3-3306401E9522}
+		{E8A95188-D6D5-499B-967F-16631C6ACBC4} = {4E629FB0-B127-4AB7-ADC3-3306401E9522}
+		{3F44A501-A140-4E4C-BE9A-0ACEDAF593EF} = {4E629FB0-B127-4AB7-ADC3-3306401E9522}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAAAE3C2-1D39-4BDD-A5AD-3644FE3542C5}
+	EndGlobalSection
+EndGlobal
