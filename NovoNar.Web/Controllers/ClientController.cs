@@ -13,12 +13,13 @@ namespace NovoNar.Web.Controllers
         }
 
         [HttpPost]
+
         public IActionResult Register([FromForm] Client client)
         {
             return View();
         }
 
-        [Route("client/find/{cpf}")]
+        //[Route("client/find/{cpf:{regex:(^\\d{{3}.d{{3}}-d{{3}$})")]
         public IActionResult Register(Int64 cpf)
         {
             return View();
