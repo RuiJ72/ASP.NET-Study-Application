@@ -13,7 +13,6 @@ namespace NovoNar.Web.Controllers
         }
 
         [HttpPost]
-        [Route("/client/new(^\\d{3}.d{3}-d{3})$}")]
         public IActionResult Register([FromForm] Client client)
         {
             return View();
